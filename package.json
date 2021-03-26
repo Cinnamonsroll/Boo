@@ -1,0 +1,39 @@
+{
+  "name": "hello-express",
+  "version": "0.0.1",
+  "description": "A simple Node app built on Express, instantly up and running.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "fs": "^0.0.2",
+    "mongoose": "^5.11.20",
+    "module-alias": "^2.2.2",
+    "nodelua": "^0.3.3",
+    "canvas": "^2.6.1",
+    "node-canvas-with-twemoji-and-discord-emoji": "^1.2.1",
+    "string-toolkit": "^1.3.2",
+    "express": "^4.17.1",
+    "ejs": "^3.1.6",
+    "gif-extract-frames": "^1.0.2",
+    "gif-frames": "^1.0.1",
+    "gifencoder": "^2.0.1",
+    "reconlx": "^1.2.3",
+    "parse-ms": "^2.1.0",
+    "node-superfetch": "^0.1.11",
+    "btoa": "^1.2.1",
+    "tictactoe-minimax-ai": "^1.2.1"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "_moduleAliases": {
+    "@db.guild": "./models/guild.js",
+    "@db.user": "./models/user.js",
+    "@db.cards": "./models/cards.js",
+    "@functions.commands": "./functions/commands.js",
+    "@functions.canvas": "./functions/canvas.js"
+  }
+}
