@@ -1,0 +1,11 @@
+:root,
+:root[theme="LIGHT"]{
+  --sidebarBackground: #e4e5e9;
+  --hr: #d1d3d6;
+  --pageBackground: #ffffff;
+}
+:root[theme="DARK"]{
+   --sidebarBackground: #212226;
+  --hr: #2f3034;
+  --pageBackground: #363940;
+}
